@@ -1,0 +1,9 @@
+# Dependabot: PR z nowym SHA akcji (format `@<sha>  # vX.Y.Z`), patrz docs/08-github-actions-tagi-sha.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
